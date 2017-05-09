@@ -1,0 +1,14 @@
+2017/05/09 17:03:49 process pid: 24856
+2017/05/09 17:03:49 write pid in /web/erl/demo/http_server/_build/default/lib/go/priv/go.pid
+2017/05/09 17:03:49 node started
+2017/05/09 17:03:49 HandleCast: etf.Tuple{"ping", etf.Pid{Node:"http_server@127.0.0.1", Id:0x19d, Serial:0x0, Creation:0x1}}
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10001"
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10002"
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10003"
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10004"
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10005"
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10006"
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10007"
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10008"
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10009"
+2017/05/09 17:03:49 new goroutine 创建新协程, server name: "gs_10010"
