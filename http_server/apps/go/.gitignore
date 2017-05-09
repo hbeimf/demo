@@ -16,3 +16,5 @@ _build
 .idea
 rebar3.crashdump
 xgn.node
+go.log
+go.pid
