@@ -247,8 +247,9 @@ handle_info(_Info, State) ->
 %% @end
 %%--------------------------------------------------------------------
 terminate(_, #state{remote_pid = Pid}) when is_pid(Pid) ->
-    {ok, GoMBox} = application:get_env(go, go_mailbox),
-    gen_server:cast(GoMBox, stop),
+    % {ok, GoMBox} = application:get_env(go, go_mailbox),
+    % gen_server:cast(GoMBox, stop),
+    force_kill_process(),
     ok;
 terminate(_Reason, _State) ->
     ok.
